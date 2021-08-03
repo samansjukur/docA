@@ -9,10 +9,9 @@ Documents are pre-designed on the app, when user create a document it will gener
 This QR will be scan by the verify function to query the block from Algorand blockchain, decrypt it and generate the specific document base on the document type when it created.
 
 docA is develop using LiveCode and Algorand javascript SDK.
-The source code file : doca.livecode
+source code file : doca.livecode
 
-For security reason, it is recommend to write your own function to generate a encryption key.
-the code is on the function "getCipherKey" at the stack script
+For security reason, it is recommend to write your own function to generate a encryption key, the code is on the function "getCipherKey" at the stack script
 
 
 # Requirements
